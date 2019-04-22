@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panacea.Modularity.RfidReader", "Panacea.Modularity.RfidReader\Panacea.Modularity.RfidReader.csproj", "{1265F394-7797-47B5-AB70-6264417CF8EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1265F394-7797-47B5-AB70-6264417CF8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1265F394-7797-47B5-AB70-6264417CF8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1265F394-7797-47B5-AB70-6264417CF8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1265F394-7797-47B5-AB70-6264417CF8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42E3735-C09D-4048-8325-E8C6FABB94C3}
+	EndGlobalSection
+EndGlobal
