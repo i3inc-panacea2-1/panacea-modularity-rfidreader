@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Panacea.Core, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Panacea.Core.0.0.1\lib\net462\Panacea.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Panacea.Modularity, Version=0.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Panacea.Modularity.0.0.2\lib\net462\Panacea.Modularity.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,7 +47,9 @@
     <Compile Include="RfidReaderPluginContainer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <PackageReference Include="Panacea.Core">
+      <Version>0.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
