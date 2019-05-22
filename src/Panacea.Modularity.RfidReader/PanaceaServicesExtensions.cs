@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Panacea.Modularity.RfidReader.Extensions
+namespace Panacea.Modularity.RfidReader
 {
     public static class PanaceaServicesExtensions
     {
