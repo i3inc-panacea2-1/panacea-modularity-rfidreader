@@ -56,11 +56,11 @@ namespace Panacea.Modularity.RfidReader
                 .AsReadOnly();
         }
 
-        event EventHandler<string> CardConnected;
+        public event EventHandler<string> CardConnected;
 
-        event EventHandler<string> CardDisconnected;
+        public event EventHandler<string> CardDisconnected;
 
-        void SimulateCardTap(string s)
+        public void SimulateCardTap(string s)
         {
             var i = new Random().Next(0, AllReaders.Count);
             AllReaders[i].SimulateCardTap(s);
